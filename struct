@@ -1,0 +1,26 @@
+autotest
+    configure.py
+
+    configure
+        2025-06-07 20:25:00 <message>
+            args.log (保存某次测试传入的参数)
+            structure.csv (对应的网络结构)
+            general
+                conconfig.ini
+                preconfig.ini
+                aggregatorcat.ini
+                aggregatorput.ini
+            nodes
+                agg0.conf
+                agg1.conf
+                con0.conf
+                pro0.conf
+                pro1.conf
+                pro2.conf
+                pro3.conf
+        2025-06-07 20:25:01 binary_tree
+            (类似结构)
+    
+    logs
+        2025-06-07 20:26:00 run-test1, 2025-06-07 20:25:00
+            log(运行对应配置后的log)

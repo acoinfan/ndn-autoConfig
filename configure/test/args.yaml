@@ -1,0 +1,4 @@
+algorithm: defaultTestAlgorithm
+chunk_size: 1MB
+structure: structure
+total_size: 10MB
