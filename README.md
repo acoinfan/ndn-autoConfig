@@ -6,6 +6,7 @@ python3 configure.py structure.csv -m "bw100,delay10,loss0" --chunk-size 3MB --t
 这个坑在实现autotest的时候再填
 
 文件结构
+```
 autotest
     configure.py
     
@@ -27,3 +28,4 @@ autotest
 
         2025-06-07 20:25:01
             (类似结构)
+```shell
