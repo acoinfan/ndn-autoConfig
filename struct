@@ -2,25 +2,33 @@ autotest
     configure.py
 
     configure
-        2025-06-07 20:25:00 <message>
+        test1
             args.log (保存某次测试传入的参数)
             structure.csv (对应的网络结构)
-            general
-                conconfig.ini
-                preconfig.ini
-                aggregatorcat.ini
-                aggregatorput.ini
-            nodes
-                agg0.conf
-                agg1.conf
-                con0.conf
-                pro0.conf
-                pro1.conf
-                pro2.conf
-                pro3.conf
+            web.conf (网络配置)
+
+            algorithm
+                algo1
+                    conconfig.ini
+                    preconfig.ini
+                    aggregatorcat.ini
+                    aggregatorput.ini
+                algo2
+                    ......
+                algo3
+                    ......
+                algo4
+                    ......
+
         2025-06-07 20:25:01 binary_tree
             (类似结构)
     
     logs
         2025-06-07 20:26:00 run-test1, 2025-06-07 20:25:00
             log(运行对应配置后的log)
+
+
+
+
+csv
+from to bw loss delay max_queue_number
