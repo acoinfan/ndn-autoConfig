@@ -209,7 +209,7 @@ def generate_conconfig(args, algorithm : str):
 
     parser = configparser.ConfigParser()
     parser['General'] = {
-        'name': f'/{args.message}-con',                              # configuration name identifier 配置名称标识符
+        'name': f'/{args.message}-con',                             # configuration name identifier 配置名称标识符
         'lifetime': '4000',                                         # interest packet lifetime (ms) 兴趣包生存时间(毫秒)
         'retries': '1024',                                          # maximum retry count 最大重传次数
         'pipeline-type': 'hybla',                                   # pipeline algorithm type 管道算法类型
