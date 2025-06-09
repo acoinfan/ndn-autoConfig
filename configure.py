@@ -209,7 +209,7 @@ def generate_conconfig(args, algorithm : str):
 
     parser = configparser.ConfigParser()
     parser['General'] = {
-        'name': f'{args.message}-con',                              # configuration name identifier 配置名称标识符
+        'name': f'/{args.message}-con',                              # configuration name identifier 配置名称标识符
         'lifetime': '4000',                                         # interest packet lifetime (ms) 兴趣包生存时间(毫秒)
         'retries': '1024',                                          # maximum retry count 最大重传次数
         'pipeline-type': 'hybla',                                   # pipeline algorithm type 管道算法类型
@@ -279,8 +279,8 @@ def generate_proconfig(args, algorithm):
         'print-data-version': 'false',                              # print data version switch 打印数据版本开关
         'quiet': 'false',                                           # quiet mode switch 静默模式开关
         'verbose': 'false',                                         # verbose output switch 详细输出开关
-        'chunk-size': str(chunk_size),                              # single chunk size (bytes) 单个chunk大小(字节)
-        'input-file': 'TO BE COMPLETED'                             # input data file path 输入数据文件路径
+        'chunk-size': str(chunk_size)                               # single chunk size (bytes) 单个chunk大小(字节)
+        # 'input-file': 'DISABLED'                                  # input data file path 输入数据文件路径
     }
 
     parser['Logging'] = {
@@ -306,7 +306,7 @@ def generate_aggregatorcat(args, algorithm):
 
     parser = configparser.ConfigParser()
     parser['General'] = {
-        'name': f'{args.message}-agg',                              # producer name identifier 生产者名称标识符
+        'name': f'/{args.message}-agg',                              # producer name identifier 生产者名称标识符
         'lifetime': '4000',                                         # interest packet lifetime (ms) 兴趣包生存时间(毫秒)
         'retries': '1024',                                          # maximum retry count 最大重传次数
         'pipeline-type': f"{algorithm}",                            # pipeline algorithm type 管道算法类型
@@ -371,8 +371,8 @@ def generate_aggregatorput(args, algorithm):
         'print-data-version': 'false',                              # print data version switch 打印数据版本开关
         'quiet': 'false',                                           # quiet mode switch 静默模式开关
         'verbose': 'false',                                         # verbose output switch 详细输出开关
-        'chunk-size': str(chunk_size),                              # single chunk size (bytes) 单个chunk大小(字节)
-        'input-file': 'TO BE COMPLETED'                             # input data file path 输入数据文件路径
+        'chunk-size': str(chunk_size)                               # single chunk size (bytes) 单个chunk大小(字节)
+        # 'input-file': 'DISABLED'                                  # input data file path 输入数据文件路径
     }
 
     parser['Logging'] = {

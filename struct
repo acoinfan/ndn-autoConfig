@@ -1,26 +1,23 @@
 autotest
     configure.py
-
+    
     configure
         test1
-            args.log (保存某次测试传入的参数)
+            args.yaml (保存某次测试传入的参数)
             structure.csv (对应的网络结构)
             web.conf (网络配置)
 
             algorithm
-                algo1
+                aimd
                     conconfig.ini
                     preconfig.ini
                     aggregatorcat.ini
                     aggregatorput.ini
-                algo2
-                    ......
-                algo3
-                    ......
-                algo4
+                rubic
                     ......
 
-        2025-06-07 20:25:01 binary_tree
+
+        2025-06-07 20:25:01
             (类似结构)
     
     logs

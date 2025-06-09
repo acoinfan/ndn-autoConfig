@@ -1,7 +1,7 @@
 from,to,bw,loss,delay,max_queue_number
-con0,agg0,100,0,10,10000
-con0,agg1,100,1,100,1000
-agg0,pro0,100,10,1000,1
-agg0,pro1,1000,0,10,10000
-agg1,pro0,100,0,1,1000
-agg1,pro1,10,0,1,100
+con0,agg0,30,0,0,10000
+con0,agg1,30,0,0,10000
+agg0,pro0,30,0,0,10000
+agg0,pro1,30,0,0,10000
+agg1,pro2,30,0,0,10000
+agg1,pro3,30,0,0,10000
